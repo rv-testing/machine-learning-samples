@@ -2,8 +2,8 @@ import boto3
 
 client = boto3.client(
     's3',
-    aws_access_key_id='AKIAVOIVYWGGH3CGTCOO',
-    aws_secret_access_key='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'
+    #aws_access_key_id='',
+    #aws_secret_access_key=''
     #aws_session_token=SESSION_TOKEN
 )
 s3 = boto3.resource('s3')
