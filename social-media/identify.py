@@ -3,7 +3,7 @@ import json
 
 
 if __name__ == "__main__":
-    photo='https://ric07s3.s3.amazonaws.com/bill.jpg'
+    photo='bill.jpg'
 
     client=boto3.client('rekognition')
 
