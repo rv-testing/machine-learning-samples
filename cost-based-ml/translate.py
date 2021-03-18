@@ -7,4 +7,4 @@ result = translate.translate_text(Text=t,SourceLanguageCode="en",TargetLanguageC
 print(t)
 print('TranslatedText: ' + result.get('TranslatedText'))
 print('SourceLanguageCode: ' + result.get('SourceLanguageCode'))
-print('TargetLanguageCode: ' + reslut.get('TargetLanguageCode'))
+print('TargetLanguageCode: ' + result.get('TargetLanguageCode'))
