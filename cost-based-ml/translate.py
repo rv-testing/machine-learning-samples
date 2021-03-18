@@ -5,6 +5,6 @@ t = "How are you"
 result = translate.translate_text(Text=t,SourceLanguageCode="en",TargetLanguageCode="de")
 
 print(t)
-print('TranslatedText: ' + result.get('TranslateText'))
+print('TranslatedText: ' + result.get('TranslatedText'))
 print('SourceLanguageCode: ' + result.get('SourceLanguageCode'))
 print('TargetLanguageCode: ' + reslut.get('TargetLanguageCode'))
